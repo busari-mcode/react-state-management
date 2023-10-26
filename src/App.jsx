@@ -1,10 +1,13 @@
+
+// ############################## useState #########################################
 //  ************** Learning phase 6 ********
+// useState may contains a function as a starting point
 
 import { useState } from 'react'
 
 function NameList() {
   const [list, setList] = useState(["Jack", "Jill", "John"]);
-  const [name, setName] = useState("");
+  const [name, setName] = useState(() => "Jack");
 
   const onAddName = () => {
     setList([...list, name]);
