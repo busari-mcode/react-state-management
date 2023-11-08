@@ -1,7 +1,7 @@
 
 // ############################## useState #########################################
 //  ************** Learning phase 6 ********
-// useState may contains a function as a starting point
+// useState may contain a function as a starting point
 
 import { useState } from 'react'
 
